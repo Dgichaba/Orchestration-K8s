@@ -6,7 +6,7 @@ The goal of this project is to run containerized workloads on the Yolo project u
 * Visual Studio Code
 * Git
 * Chrome browser
-* Minicube
+* Minikube
 * Docker
 ## Technologies Used
 * Markdown
