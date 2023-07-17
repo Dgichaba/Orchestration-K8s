@@ -31,6 +31,12 @@ spec:
         volumeMounts:
           - mountPath: "/tmp"
             name: yolo-backend 
+        env:
+          - name: MONGODB_URI
+            valueFrom: 
+              secretKeyRef:
+                name: backend-secrets
+                key: MONGODB_URI
       volumes:
       - name: yolo-backend
         persistentVolumeClaim:
